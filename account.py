@@ -6,7 +6,7 @@ class Account:
         self.__account_value += amount
     
     def withdraw(self, amount):
-        self.__acount_value -= amount
+        self.__account_value -= amount
 
     @property
     def current_value(self):
