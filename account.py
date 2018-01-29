@@ -11,3 +11,7 @@ class Account:
     @property
     def current_value(self):
         return self.__account_value
+
+    def transfer_to(self, acct, amount):
+        self.withdraw(amount)
+        acct.deposit(amount)
